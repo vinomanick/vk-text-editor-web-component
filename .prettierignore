@@ -1,0 +1,6 @@
+build
+dist
+README.md
+.vscode
+.prettierrc.json
+package.json
