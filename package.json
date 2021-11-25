@@ -7,7 +7,7 @@
   "author": "Vinodh Kumar <vinodhkumar.manickam@freshworks.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel",
+    "dev": "rm -rf dist && parcel",
     "build": "rm -rf dist && parcel build",
     "format": "prettier --write .",
     "lint:js": "eslint .",
