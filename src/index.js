@@ -1,7 +1,7 @@
 import { VkButton } from "vk-text-editor";
 import ReactDOM from "react-dom";
 
-class VkTextEditor extends HTMLElement {
+export class VkTextEditor extends HTMLElement {
   constructor() {
     super();
     // write element functionality in here

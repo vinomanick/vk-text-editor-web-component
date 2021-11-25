@@ -4,6 +4,7 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/module.js",
+  "type": "module",
   "repository": "https://vinomanick@github.com/vinomanick/vk-text-editor-web-component.git",
   "author": "Vinodh Kumar <vinodhkumar.manickam@freshworks.com>",
   "license": "MIT",
