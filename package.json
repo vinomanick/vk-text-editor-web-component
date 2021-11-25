@@ -1,6 +1,6 @@
 {
   "name": "vk-text-editor-web-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/module.js",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
+    "build": "rm -rf dist && parcel build",
     "format": "prettier --write .",
     "lint:js": "eslint .",
     "prepare": "husky install"
