@@ -1,0 +1,39 @@
+{
+  "name": "vk-text-editor-web-component",
+  "version": "1.0.1",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "repository": "https://vinomanick@github.com/vinomanick/vk-text-editor-web-component.git",
+  "author": "Vinodh Kumar <vinodhkumar.manickam@freshworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "format": "prettier --write .",
+    "lint:js": "eslint .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vk-text-editor": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.27.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "2.4.1"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
