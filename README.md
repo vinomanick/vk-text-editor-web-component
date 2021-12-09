@@ -20,4 +20,10 @@ Web component wrapper for VkButton react component
   label="submit"
   onClick="myFunction()"
   ></vk-text-editor>
+
+<script>
+  function myFunction() {
+    console.log('Inside my function');
+  }
+</script>
 ```
