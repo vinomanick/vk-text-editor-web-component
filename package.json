@@ -1,6 +1,6 @@
 {
   "name": "vk-text-editor-web-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "source": "src/index.js",
   "main": "dist/index.js",
   "repository": "https://vinomanick@github.com/vinomanick/vk-text-editor-web-component.git",
@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "vk-text-editor": "^1.0.7"
+    "vk-text-editor": "^1.0.8"
   },
   "devDependencies": {
     "eslint": "^8.3.0",

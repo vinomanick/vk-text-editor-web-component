@@ -1365,10 +1365,10 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vk-text-editor@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/vk-text-editor/-/vk-text-editor-1.0.7.tgz#3807266f3fe8b1ad0cb857a2aa4514017be884e3"
-  integrity sha512-syt8HST/iu5ohdhCqO8pHCORypnD4zAf/vK11RIhp6HNOqtSY5JREcJK/diriAsPgLIYysnteiU3QxU1nQhoIQ==
+vk-text-editor@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/vk-text-editor/-/vk-text-editor-1.0.8.tgz#226e176b02171ea30207fab91baf02236c2ea662"
+  integrity sha512-kt1jM7Hel2qDYK97xn7mWDv/IY7xTKr5XXO+GC0dORAQ28cAosDJ0gKn1UK+C8giwk/OYkR29ES10LZRPt7HHA==
   dependencies:
     prop-types "^15.7.2"
 
